@@ -4,12 +4,12 @@ This project is based on a task from [Kaggle](https://www.kaggle.com/paultimothy
 
 ![The input of the model is a 640 x 280 image of a blood sample](images/data.png)
 
-The notebook `model.ipynb` is written as a simple case study, highlighting the main steps of NN training in the context of biological image data.
+The notebook `model.ipynb` is written as a simple case study, highlighting the main steps of NN training in the context of biological image data. For convenience, the trained models are also on this repo (sorry!) in the directory `models`.
 
 
 ## Results
 
-I used OpenCV to isolate the RoIs from the samples, and I built a small model based on ResNet blocks to differentiate between the five types of leukocytes.
+There were a total of 367 annotated images in the dataset. I used OpenCV to isolate the RoIs from the images, and I built a small model based on ResNet blocks to differentiate between the five types of leukocytes.
 
 You can see the evaluation of the final model below.
 
