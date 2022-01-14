@@ -28,6 +28,10 @@ However, I also calculated its accuracy and compared it with the three most popu
 
 Keep in mind that the testing datasets were different so the models aren't directly comparable. Nevertheless, it seems that the resnet blocks are very effective.
 
+## Future improvements
+
+Further data augmentation could be utilised to make the model more robust, and would maybe allow me to increase the number of layers, and in turn, improve its performance. Proper (e.g. automated) hyperparameter tuning might also help push the effectivity of the model.
+
 ## References
 
 Cohen's Kappa: McHugh, M. L. (2012). Interrater reliability: the kappa statistic. Biochemia medica, 22(3), 276-282.
